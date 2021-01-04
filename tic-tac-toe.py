@@ -79,7 +79,7 @@ while True:
 			sys.exit()
 
 		if victory == True:
-			text_info = pygame.font.SysFont('lato',18)
+			text_info = pygame.font.SysFont('arial',18)
 			text_info = text_info.render('Click right mouse button',0,white)
 			win.blit(text_info,(10,h_max - 10 - text_info.get_rect()[3]))
 
